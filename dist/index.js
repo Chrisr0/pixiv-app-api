@@ -22,7 +22,7 @@ const axios_1 = __importDefault(require("axios"));
 const decamelize_keys_1 = __importDefault(require("decamelize-keys"));
 const camelcase_keys_1 = __importDefault(require("camelcase-keys"));
 const baseURL = 'https://app-api.pixiv.net/';
-const appVersion = '7.10.10';
+const appVersion = '7.12.1';
 const userAgent = `PixiviOSApp/${appVersion} (iOS 14.4)`;
 const instance = axios_1.default.create({
     baseURL,
